@@ -75,7 +75,9 @@ npm run test
 # Additional information
 
 Persistance uses LokiJS database icluding autosave and autoload
+
 Projects are automatically created on start using any project name
+
 DTOs are used between DB objects and API JSON responses because of observed strange autosaving DB objects through LokiJS
 
 ## Notes
