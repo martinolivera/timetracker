@@ -33,14 +33,14 @@ npm run dev
 Tracking endpoints
 
 - Start tracking
-POST http://localhost:5000/api/v1/start/<project-name>
+POST http://localhost:5000/api/v1/start/[project-name]
 
 e.g.
 curl --request POST http://localhost:5000/api/v1/start/some-project
 
 
 - Stop tracking
-POST http://localhost:5000/api/v1/stop/<project-name>
+POST http://localhost:5000/api/v1/stop/[project-name]
 
 e.g.
 curl --request POST http://localhost:5000/api/v1/stop/some-project
@@ -55,7 +55,7 @@ e.g.
 curl http://localhost:5000/api/v1
 
 - List a project with time segments
-GET http://localhost:5000/api/v1/<project-name>
+GET http://localhost:5000/api/v1/[project-name]
 
 e.g.
 curl http://localhost:5000/api/v1/some-project
